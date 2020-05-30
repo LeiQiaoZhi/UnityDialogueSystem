@@ -1,4 +1,4 @@
-# UnityDialogueSystem
+# Branching Dialogue System for Unity
 An open-source node based branching dialogue system created by me for Unity, which can visualise the dialogues in graphs.
 
 *warning -- only tested on Unity version 2019.3*
