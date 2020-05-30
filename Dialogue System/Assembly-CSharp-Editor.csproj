@@ -63,54 +63,81 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\SampleScene\Environment\Editor\DialogueWindow.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\AntialiasingEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\BloomEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\CreaseShadingEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\DepthOfFieldEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\EdgeDetectionEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\SunShaftsEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\TonemappingEditor.cs" />
-    <Compile Include="Assets\SampleScene\Environment\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
-    <Compile Include="Assets\Scripts\Editor\SentenceEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\DialogueWindow.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\AntialiasingEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\BloomAndFlaresEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\BloomEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\CameraMotionBlurEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\ColorCorrectionCurvesEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\ColorCorrectionLookupEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\CreaseShadingEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\DepthOfFieldDeprecatedEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\DepthOfFieldEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\EdgeDetectionEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\NoiseAndGrainEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\SunShaftsEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\TonemappingEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\SampleScene\Environment\Editor\ImageEffects\VignetteAndChromaticAberrationEditor.cs" />
+    <Compile Include="Assets\DialogueSystemAsset\Scripts\Editor\SentenceEditor.cs" />
     <Reference Include="UnityEditor.TestRunner">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Editor">
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-weaver.Editor">
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XR.LegacyInputHelpers">
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/Unity.2D.Tilemap.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.SpatialTracking">
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.XR.LegacyInputHelpers">
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.multiplayer-hlapi.Runtime">
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.4f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -301,8 +328,11 @@
     <Reference Include="SyntaxTree.VisualStudio.Unity.Bridge">
       <HintPath>/Applications/Visual Studio (old).app/Contents/Resources/lib/monodevelop/AddIns/MonoDevelop.Unity/Editor/SyntaxTree.VisualStudio.Unity.Bridge.dll</HintPath>
     </Reference>
+    <Reference Include="AssetStoreTools">
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Assets/AssetStoreTools/Editor/AssetStoreTools.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
-      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/Dialogue System/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+      <HintPath>/Users/GeorgeLei/Downloads/Dialogue-System-master/UnityDialogueSystem/Dialogue System/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
     </Reference>
     <Reference Include="mscorlib">
       <HintPath>/Applications/Unity/Hub/Editor/2019.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>

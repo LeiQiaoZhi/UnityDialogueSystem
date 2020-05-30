@@ -1,21 +1,9 @@
 ﻿<Properties StartupConfiguration="{7ED2CA81-55EC-792B-5721-70DA507AD221}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/DialogueManager.cs">
-    <Files>
-      <File FileName="Assets/Scripts/StringVariable.cs" Line="3" Column="19" />
-      <File FileName="Assets/Scripts/GameEvent.cs" Line="13" Column="39" />
-      <File FileName="Assets/Scripts/GameEventListener.cs" Line="16" Column="1" />
-      <File FileName="Assets/Scripts/DialogueSO.cs" Line="8" Column="44" />
-      <File FileName="Assets/Scripts/Sentence.cs" Line="9" Column="17" />
-      <File FileName="Assets/Scripts/Editor/SentenceEditor.cs" Line="107" Column="14" />
-      <File FileName="Assets/Scripts/DialogueGraphView.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/DialogueGraph.cs" Line="17" Column="21" />
-      <File FileName="Assets/Scripts/DialogueTrigger.cs" Line="9" Column="21" />
-      <File FileName="Assets/Scripts/DialogueManager.cs" Line="7" Column="14" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Dialogue System" selected="True" />
+          <Node name="Dialogue System" expanded="True" selected="True" />
         </State>
       </Pad>
     </Pads>

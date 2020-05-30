@@ -1,5 +1,4 @@
 sceneSetups:
-- path: Assets/Main.unity
+- path: Assets/DialogueSystemAsset/SampleScene/Sample.unity
   isLoaded: 1
   isActive: 1
-  isSubScene: 0
